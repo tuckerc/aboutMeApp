@@ -1,3 +1,26 @@
-body {
-  color: blue;
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+td {
+  margin:auto;
+  text-align: center;
+}
+td h2, td h3 {
+  display:block;
+  visibility:hidden;
+  text-align: center;
+  margin:auto;
+  
+}
+#correct {
+  background-color: green;
+}
+
+#wrong {
+  background-color: red;
 }
