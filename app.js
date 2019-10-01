@@ -31,6 +31,10 @@ var response, msg;
 msg = 'Would you like to take a quiz about Chase?';
 response = confirm(msg);
 if (response === true) {
+  // greet user
+  msg = 'What is your name?';
+  var userName = prompt(msg);
+  alert('Thanks for playing ' + userName + '!');
   // qustion 1
   document.getElementById('fact1').children[0].style.visibility = 'visible';
   msg = 'True or false: King Ranch Chicken Caserole is my favorite thing to eat.';
@@ -100,6 +104,7 @@ if (response === true) {
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'red';
   }
+  alert('Thanks for playing ' + userName + '!');
 } 
 
 
