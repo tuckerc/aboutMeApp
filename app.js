@@ -41,10 +41,12 @@ if (response === true) {
   response = prompt(msg);
   response = response.toLowerCase();
   if (response === 'true') {
+    alert('That\'s correct!');
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'green';
   }
   else {
+    alert('I thought you knew me better!');
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'red';
   }
@@ -55,10 +57,12 @@ if (response === true) {
   response = prompt(msg);
   response = response.toLowerCase();
   if (response === 'true') {
+    alert('That\'s correct!');
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'green';
   }
   else {
+    alert('I thought you knew me better!');
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'red';
   }
@@ -69,10 +73,12 @@ if (response === true) {
   response = prompt(msg);
   response = response.toLowerCase();
   if (response === 'false') {
+    alert('That\'s correct!');
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'green';
   }
   else {
+    alert('I thought you knew me better!');
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'red';
   }
@@ -83,10 +89,12 @@ if (response === true) {
   response = prompt(msg);
   response = response.toLowerCase();
   if (response === 'false') {
+    alert('That\'s correct!');
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'green';
   }
   else {
+    alert('I thought you knew me better!');
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'red';
   }
@@ -97,14 +105,16 @@ if (response === true) {
   response = prompt(msg);
   response = response.toLowerCase();
   if (response === 'true') {
+    alert('That\'s correct!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'green';
   }
   else {
+    alert('I thought you knew me better!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'red';
   }
   alert('Thanks for playing ' + userName + '!');
-} 
+}
 
 

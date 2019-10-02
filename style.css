@@ -10,6 +10,13 @@ td {
   margin:auto;
   text-align: center;
 }
+li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.horizontal {
+  display: inline-block;
+}
 td h2, td h3 {
   display:block;
   visibility:hidden;

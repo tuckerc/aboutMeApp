@@ -13,35 +13,60 @@
     </header>
     <main>
       <h2>True or False?</h2>
-      <table>
-        <tr>
-          <td id="headShot">
-            <img src="img/24863036.png" alt="headShot picture">
-          </td>
-          <td id="fact1">
-            <h2>My favorite thing to eat is King Ranch Chicken Caserole.</h2>
-            <h3>TRUE</h3>
-          </td>
-          <td id="fact2">
-            <h2>I was born in Aurora, CO.</h2>
-            <h3>TRUE</h3>
-          </td>
-        </tr>
-        <tr>
-          <td id="fact3">
-            <h2>I have 5 siblings.</h2>
-            <h3>FALSE. I am the oldest of 3 brothers.</h3>
-          </td>
-          <td id="fact4">
-            <h2>My favorite color is blue.</h2>
-            <h3>FALSE. I like green.</h3>
-          </td>
-          <td id="fact5">
-            <h2>I grew up in Texas.</h2>
-            <h3>TRUE. Most of my family still lives there.</h3>
-          </td>
-        </tr>
-      </table>
+      <div id="quizTable">
+        <table>
+          <tr>
+            <td id="headShot">
+              <img src="img/24863036.png" alt="headShot picture">
+            </td>
+            <td id="fact1">
+              <h2>My favorite thing to eat is King Ranch Chicken Caserole.</h2>
+              <h3>TRUE</h3>
+            </td>
+            <td id="fact2">
+              <h2>I was born in Aurora, CO.</h2>
+              <h3>TRUE</h3>
+            </td>
+          </tr>
+          <tr>
+            <td id="fact3">
+              <h2>I have 5 siblings.</h2>
+              <h3>FALSE. I am the oldest of 3 brothers.</h3>
+            </td>
+            <td id="fact4">
+              <h2>My favorite color is blue.</h2>
+              <h3>FALSE. I like green.</h3>
+            </td>
+            <td id="fact5">
+              <h2>I grew up in Texas.</h2>
+              <h3>TRUE. Most of my family still lives there.</h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class='horizontal' id="additionalInfo">
+        <div class='horizontal' id="topTen">
+          <p>
+            <h2>Top 10 Places I'd Like to Visit</h2>
+            <ol>
+              <li>South Island, New Zealand</li>
+              <li>Tahiti</li>
+              <li>London</li>
+              <li>Phuket</li>
+              <li>Yosemite</li>
+              <li>Machu Picchu</li>
+              <li>Yellowstone</li>
+              <li>Banff</li>
+              <li>Patagonia</li>
+              <li>Santorini</li>
+            </ol>
+          </p>
+        </div>
+        <div class='horizontal'>
+          <h2>Total Correct Answers</h2>
+          <p id="totalRight"></p>
+        </div>
+      </div>
     </main>
     <footer>
       <p id="correct">Green background: correct answer!</p>
