@@ -31,22 +31,32 @@ var response, msg;
 msg = 'Would you like to take a quiz about Chase?';
 response = confirm(msg);
 if (response === true) {
+  
   // greet user
   msg = 'What is your name?';
   var userName = prompt(msg);
   alert('Thanks for playing ' + userName + '!');
+  
   // qustion 1
   document.getElementById('fact1').children[0].style.visibility = 'visible';
   msg = 'True or false: King Ranch Chicken Caserole is my favorite thing to eat.';
   response = prompt(msg);
   response = response.toLowerCase();
-  if (response === 'true') {
+  if (response === 'true' || response === 't') {
     alert('That\'s correct!');
+    console.log(response+'. That\'s correct!');
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'green';
   }
-  else {
+  else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
+    console.log(response + '. I thought you knew me better!');
+    document.getElementById('fact1').children[1].style.visibility = 'visible';
+    document.getElementById('fact1').style.backgroundColor = 'red';
+  }
+  else {
+    alert('Please answer true or false');
+    console.log(response);
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'red';
   }
@@ -56,13 +66,21 @@ if (response === true) {
   msg = 'True or false: I was born in Aurora, CO.';
   response = prompt(msg);
   response = response.toLowerCase();
-  if (response === 'true') {
+  if (response === 'true' || response === 't') {
     alert('That\'s correct!');
+    console.log(response + '. That\'s correct!');
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'green';
   }
-  else {
+  else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
+    console.log(response + '. I thought you knew me better!');
+    document.getElementById('fact2').children[1].style.visibility = 'visible';
+    document.getElementById('fact2').style.backgroundColor = 'red';
+  }
+  else {
+    alert('Please answer true or false');
+    console.log(response);
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'red';
   }
@@ -72,13 +90,21 @@ if (response === true) {
   msg = 'True or false: I have 5 siblings.';
   response = prompt(msg);
   response = response.toLowerCase();
-  if (response === 'false') {
+  if (response === 'false' || response === 'f') {
     alert('That\'s correct!');
+    console.log(response + '. That\'s correct!');
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'green';
   }
-  else {
+  else if((response === 'true' || response === 't')){
     alert('I thought you knew me better!');
+    console.log(response + '. I thought you knew me better!');
+    document.getElementById('fact3').children[1].style.visibility = 'visible';
+    document.getElementById('fact3').style.backgroundColor = 'red';
+  }
+  else {
+    alert('Please answer true or false');
+    console.log(response);
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'red';
   }
@@ -88,13 +114,21 @@ if (response === true) {
   msg = 'True or false: My favorite color is blue.';
   response = prompt(msg);
   response = response.toLowerCase();
-  if (response === 'false') {
+  if (response === 'false' || response === 'f') {
     alert('That\'s correct!');
+    console.log(response + '. That\'s correct!');
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'green';
   }
-  else {
+  else if((response === 'true' || response === 't')){
     alert('I thought you knew me better!');
+    console.log(response + '. I thought you knew me better!');
+    document.getElementById('fact4').children[1].style.visibility = 'visible';
+    document.getElementById('fact4').style.backgroundColor = 'red';
+  }
+  else {
+    alert('Please answer true or false');
+    console.log(response);
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'red';
   }
@@ -104,16 +138,26 @@ if (response === true) {
   msg = 'True or false: I grew up in Texas.';
   response = prompt(msg);
   response = response.toLowerCase();
-  if (response === 'true') {
+  if (response === 'true' || response === 't') {
     alert('That\'s correct!');
+    console.log(response + '. That\'s correct!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'green';
   }
-  else {
+  else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
+    console.log(response + '. I thought you knew me better!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'red';
   }
+  else {
+    alert('Please answer true or false');
+    console.log(response);
+    document.getElementById('fact5').children[1].style.visibility = 'visible';
+    document.getElementById('fact5').style.backgroundColor = 'red';
+  }
+
+  // Say goodbye!
   alert('Thanks for playing ' + userName + '!');
 }
 
