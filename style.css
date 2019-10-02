@@ -10,14 +10,33 @@ td {
   margin:auto;
   text-align: center;
 }
-li {
+img{
+  border-radius: 50%;
+}
+ol > li {
   list-style-type: decimal;
   list-style-position: inside;
+}
+
+ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.left {
+  display: inline-block;
+}
+.right {
+  display: inline-block;
 }
 .horizontal {
   display: inline-block;
 }
-td h2, td h3 {
+td > h2, td > h3 {
   display:block;
   visibility:hidden;
   text-align: center;
@@ -30,4 +49,7 @@ td h2, td h3 {
 
 #wrong {
   background-color: red;
+}
+#correctCount {
+  text-align: center;
 }

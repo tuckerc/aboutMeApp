@@ -8,7 +8,7 @@ for(var i = 1; i < 6; i++) {
     currentElement.children[j].style.visibility = 'hidden';
   }
 }
-// console.log(document.getElementById('fact1').children.length);
+// // console.log(document.getElementById('fact1').children.length);
 // document.getElementById('fact1').firstChild.style.visibility = 'hidden';
 // document.getElementById('fact1').lastChild.style.visibility = 'hidden';
 // document.getElementById('fact1').firstChild.style.visibility = 'hidden';
@@ -44,19 +44,19 @@ if (response === true) {
   response = response.toLowerCase();
   if (response === 'true' || response === 't') {
     alert('That\'s correct!');
-    console.log(response+'. That\'s correct!');
+    // console.log(response+'. That\'s correct!');
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'green';
   }
   else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
-    console.log(response + '. I thought you knew me better!');
+    // console.log(response + '. I thought you knew me better!');
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'red';
   }
   else {
     alert('Please answer true or false');
-    console.log(response);
+    // console.log(response);
     document.getElementById('fact1').children[1].style.visibility = 'visible';
     document.getElementById('fact1').style.backgroundColor = 'red';
   }
@@ -68,19 +68,19 @@ if (response === true) {
   response = response.toLowerCase();
   if (response === 'true' || response === 't') {
     alert('That\'s correct!');
-    console.log(response + '. That\'s correct!');
+    // console.log(response + '. That\'s correct!');
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'green';
   }
   else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
-    console.log(response + '. I thought you knew me better!');
+    // console.log(response + '. I thought you knew me better!');
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'red';
   }
   else {
     alert('Please answer true or false');
-    console.log(response);
+    // console.log(response);
     document.getElementById('fact2').children[1].style.visibility = 'visible';
     document.getElementById('fact2').style.backgroundColor = 'red';
   }
@@ -92,19 +92,19 @@ if (response === true) {
   response = response.toLowerCase();
   if (response === 'false' || response === 'f') {
     alert('That\'s correct!');
-    console.log(response + '. That\'s correct!');
+    // console.log(response + '. That\'s correct!');
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'green';
   }
   else if((response === 'true' || response === 't')){
     alert('I thought you knew me better!');
-    console.log(response + '. I thought you knew me better!');
+    // console.log(response + '. I thought you knew me better!');
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'red';
   }
   else {
     alert('Please answer true or false');
-    console.log(response);
+    // console.log(response);
     document.getElementById('fact3').children[1].style.visibility = 'visible';
     document.getElementById('fact3').style.backgroundColor = 'red';
   }
@@ -116,19 +116,19 @@ if (response === true) {
   response = response.toLowerCase();
   if (response === 'false' || response === 'f') {
     alert('That\'s correct!');
-    console.log(response + '. That\'s correct!');
+    // console.log(response + '. That\'s correct!');
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'green';
   }
   else if((response === 'true' || response === 't')){
     alert('I thought you knew me better!');
-    console.log(response + '. I thought you knew me better!');
+    // console.log(response + '. I thought you knew me better!');
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'red';
   }
   else {
     alert('Please answer true or false');
-    console.log(response);
+    // console.log(response);
     document.getElementById('fact4').children[1].style.visibility = 'visible';
     document.getElementById('fact4').style.backgroundColor = 'red';
   }
@@ -140,19 +140,19 @@ if (response === true) {
   response = response.toLowerCase();
   if (response === 'true' || response === 't') {
     alert('That\'s correct!');
-    console.log(response + '. That\'s correct!');
+    // console.log(response + '. That\'s correct!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'green';
   }
   else if (response === 'false' || response === 'f'){
     alert('I thought you knew me better!');
-    console.log(response + '. I thought you knew me better!');
+    // console.log(response + '. I thought you knew me better!');
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'red';
   }
   else {
     alert('Please answer true or false');
-    console.log(response);
+    // console.log(response);
     document.getElementById('fact5').children[1].style.visibility = 'visible';
     document.getElementById('fact5').style.backgroundColor = 'red';
   }

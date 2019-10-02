@@ -12,41 +12,64 @@
       <h1>About Me Game</h1>
     </header>
     <main>
-      <h2>True or False?</h2>
-      <div id="quizTable">
-        <table>
-          <tr>
-            <td id="headShot">
-              <img src="img/24863036.png" alt="headShot picture">
-            </td>
-            <td id="fact1">
-              <h2>My favorite thing to eat is King Ranch Chicken Caserole.</h2>
-              <h3>TRUE</h3>
-            </td>
-            <td id="fact2">
-              <h2>I was born in Aurora, CO.</h2>
-              <h3>TRUE</h3>
-            </td>
-          </tr>
-          <tr>
-            <td id="fact3">
-              <h2>I have 5 siblings.</h2>
-              <h3>FALSE. I am the oldest of 3 brothers.</h3>
-            </td>
-            <td id="fact4">
-              <h2>My favorite color is blue.</h2>
-              <h3>FALSE. I like green.</h3>
-            </td>
-            <td id="fact5">
-              <h2>I grew up in Texas.</h2>
-              <h3>TRUE. Most of my family still lives there.</h3>
-            </td>
-          </tr>
-        </table>
-        <p id="correct">Green background: correct answer!</p>
-        <p id="wrong">Red background: incorrect answer.</p>
+      <div class="container">
+        <h2>True or False?</h2>
+        <div id="quizTable">
+          <table>
+            <tr>
+              <td id="headShot">
+                <img src="img/24863036.png" alt="headShot picture">
+              </td>
+              <td id="fact1">
+                <h2>My favorite thing to eat is King Ranch Chicken Caserole.</h2>
+                <h3>TRUE</h3>
+              </td>
+              <td id="fact2">
+                <h2>I was born in Aurora, CO.</h2>
+                <h3>TRUE</h3>
+              </td>
+            </tr>
+            <tr>
+              <td id="fact3">
+                <h2>I have 5 siblings.</h2>
+                <h3>FALSE. I am the oldest of 3 brothers.</h3>
+              </td>
+              <td id="fact4">
+                <h2>My favorite color is blue.</h2>
+                <h3>FALSE. I like green.</h3>
+              </td>
+              <td id="fact5">
+                <h2>I grew up in Texas.</h2>
+                <h3>TRUE. Most of my family still lives there.</h3>
+              </td>
+            </tr>
+          </table>
+          <p id="correct">Green background: correct answer!</p>
+          <p id="wrong">Red background: incorrect answer.</p>
+          <div id="correctCount">
+            <h2>Total Correct Answers</h2>
+            <p id="totalRight"></p>
+          </div>
+        </div>
       </div>
-      <div class='horizontal' id="additionalInfo">
+      <div class="container">
+        <div class="left">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>Boeing, Maintenance Manager (2013 - 2019)</li>
+            <li>Boeing, Business Analyst (2013 - 2018)</li>
+            <li>U.S. Army, Team Leader (2006 - 2012)</li>
+          </ul>
+        </div>
+        <div class="right">
+          <h2>Education</h2>
+          <ul>
+            <li>Code Fellows (2020)</li>
+            <li>B.A. Business Administration - University of Washington (2013)</li>
+          </ul>
+        </div>
+      </div>
+      <div class='container' id="additionalInfo">
         <div class='horizontal' id="topTen">
           <p>
             <h2>Top 10 Places I'd Like to Visit</h2>
@@ -63,10 +86,6 @@
               <li>Santorini</li>
             </ol>
           </p>
-        </div>
-        <div class='horizontal'>
-          <h2>Total Correct Answers</h2>
-          <p id="totalRight"></p>
         </div>
       </div>
     </main>
