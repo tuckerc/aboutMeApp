@@ -6,6 +6,8 @@
  * Author - Chase Tucker
  * Description - this jS file supports the logic and iteraction for the aboutMeapp.
  * Date - 10-3-2019
+ * 
+ * test to check change
  ***************************************************************/
 
 // var to keep track of total correct answers
